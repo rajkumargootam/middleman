@@ -1,0 +1,52 @@
+#landing {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../images/bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: $light-font-color;
+  border: 1px solid transparent;
+  text-align: center;
+
+  .landing-content {
+   position: absolute;
+   bottom:10%;
+   left: 0;
+   right: 0;
+   text-shadow: 0px 0px 30px black;
+
+    h1, h2 {
+      font-weight: 300;
+    }
+
+    h1 {
+      font-size: 7vw;
+    }
+
+    h2 {
+      font-size: 4vw;
+      margin-top: 6vh;
+    }
+  }
+
+  .links {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    font-size: 3em;
+    font-weight: 300;
+
+    a {
+    color: $light-font-color;
+    display: inline-block;
+    transition: all 0.3s ease-in;
+
+    &:hover {
+      text-decoration: none;
+      transform: scale(1.1);
+      text-shadow: 0 0 0.2em $light-font-color;
+    }
+    }
+
+    }
+}
