@@ -6,10 +6,14 @@ title: Welcome to Middleman
 <h1>Episodes</h1>
 <div id="episodes">
   <% data.episodes.each do |episode| %>
-    <div class="episode well ">
-
-      <h2><%= episode.code %> - <%= episode.title %></h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <div class="episode well media">
+      <div class="media-left">
+          <img class="media-object thumbnail" src="../images/episodes/<%= episode.code.downcase %>.jpg" alt="<%= episode.title %>">
+      </div>
+      <div class="media-body">
+        <h4 class="media-heading"><%= episode.code %> - <%= episode.title %></h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
     </div>
   <% end %>
 </div>

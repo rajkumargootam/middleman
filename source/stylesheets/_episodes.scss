@@ -1,0 +1,16 @@
+#episodes {
+  .episode {
+    .media-left {
+      border: 2px solid #DDD;
+      padding: 2px;
+
+     img {
+       width: 200px;
+     }
+    }
+
+    .media-body {
+      padding-left: 15px;
+    }
+  }
+}
