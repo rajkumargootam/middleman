@@ -7,14 +7,17 @@ end
 desc "deploy to github pages"
 task :deploy do
   p "## Deploying to Github Pages"
-  cp_r ".nojekyll", "build/.nojekyll"
+  #cp_r ".nojekyll", "build/.nojekyll"
   cd "build" do
+    system "git init"
+    system "git remote add origin git@github.com:rajkumargootam/middleman.git"
+    system "git checkout --orphan gh-pages"
     system "git add -A"
     message = "Site updated at #{Time.now.utc}"
     p "## Commiting: #{message}"
     system "git commit -m \"#{message}\""
     p "## Pushing generated website"
-    system "git push origin master"
+    system "git push origin gh-pages"
     p "## Github Pages deploy complete"
   end
 end
