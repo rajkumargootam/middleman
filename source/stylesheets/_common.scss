@@ -1,3 +1,26 @@
 body {
   font-family: 'Lato', sans-serif;
 }
+
+.navbar-default {
+  background-color: $dark-font-color;
+  border-color: $dark-font-color;
+
+  .navbar-nav>li>a  {
+    color: #fff;
+  &:hover {
+    color: #fff;
+  }
+  }
+
+  .navbar-brand {
+    transition: all 0.2s ease-in;
+    &, &:hover {
+    color:$light-font-color;
+
+    &:hover {
+      text-shadow: 0 0 0.3em $light-font-color;
+    }
+    }
+  }
+}
