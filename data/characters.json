@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Sherlock Holmes",
+    "thumbnail": "sherlock.jpg",
+    "description": "Brilliant, aloof and almost entirely lacking in social graces."
+  },
+  {
+    "name": "Dr John Watson",
+    "thumbnail": "watson.jpg",
+    "description": "Brave, resourceful, practical."
+  },
+  {
+    "name": "Mary Morstan",
+    "thumbnail": "Morstan.jpg",
+    "description": "John met Mary Morstan following the death of Sherlock."
+  },
+  {
+    "name": "Mycroft Holmes",
+    "thumbnail": "Mycroft.jpg",
+    "description": "Sherlock's older brother but there's little brotherly love there."
+  },
+  {
+    "name": "Detective Inspector Lestrade",
+    "thumbnail": "Lestrade.jpg",
+    "description": "The best that Scotland Yard has to offer - but he knows that Sherlock is better."
+  },
+  {
+    "name": "Jim Moriarty",
+    "thumbnail": "Moriarty.jpg",
+    "description": "A brilliant, insane genius."
+  },
+  {
+    "name": "Mrs Hudson",
+    "thumbnail": "Hudson.jpg",
+    "description": "Sherlock and John's landlady - not their housekeeper!"
+  },
+  {
+    "name": "Molly Hooper",
+    "thumbnail": "Molly.jpg",
+    "description": "Works at St Bartholomew's Hospital."
+  },
+  {
+    "name": "Phillip Anderson",
+    "thumbnail": "Phillip.jpg",
+    "description": "Clever but not as clever as he'd like to be."
+  }
+]

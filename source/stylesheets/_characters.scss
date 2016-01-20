@@ -1,0 +1,13 @@
+#characters {
+  .character {
+    transition: width 0.5s ease-in;
+    .well {
+   overflow: hidden;
+   text-overflow: ellipsis;
+
+   h4, p {
+     white-space: nowrap;
+   }
+    }
+  }
+}
