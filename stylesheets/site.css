@@ -1,0 +1,90 @@
+/* line 1, _common.scss */
+body {
+  font-family: 'Lato', sans-serif; }
+
+/* line 5, _common.scss */
+.navbar-default {
+  background-color: #070B0E;
+  border-color: #070B0E; }
+  /* line 9, _common.scss */
+  .navbar-default .navbar-nav > li > a {
+    color: #fff; }
+    /* line 11, _common.scss */
+    .navbar-default .navbar-nav > li > a:hover {
+      color: #fff; }
+  /* line 16, _common.scss */
+  .navbar-default .navbar-brand {
+    transition: all 0.2s ease-in; }
+    /* line 18, _common.scss */
+    .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover {
+      color: #FFF; }
+      /* line 21, _common.scss */
+      .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:hover:hover {
+        text-shadow: 0 0 0.3em #FFF; }
+
+/* line 1, _landing.scss */
+#landing {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #FFF;
+  border: 1px solid transparent;
+  text-align: center; }
+  /* line 11, _landing.scss */
+  #landing .landing-content {
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    right: 0;
+    text-shadow: 0px 0px 30px black; }
+    /* line 18, _landing.scss */
+    #landing .landing-content h1, #landing .landing-content h2 {
+      font-weight: 300; }
+    /* line 22, _landing.scss */
+    #landing .landing-content h1 {
+      font-size: 7vw; }
+    /* line 26, _landing.scss */
+    #landing .landing-content h2 {
+      font-size: 4vw;
+      margin-top: 6vh; }
+  /* line 32, _landing.scss */
+  #landing .links {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    font-size: 3em;
+    font-weight: 300; }
+    /* line 39, _landing.scss */
+    #landing .links a {
+      color: #FFF;
+      display: inline-block;
+      transition: all 0.3s ease-in; }
+      /* line 44, _landing.scss */
+      #landing .links a:hover {
+        text-decoration: none;
+        transform: scale(1.1);
+        text-shadow: 0 0 0.2em #FFF; }
+
+/* line 3, _episodes.scss */
+#episodes .episode .media-left {
+  border: 2px solid #DDD;
+  padding: 2px; }
+  /* line 7, _episodes.scss */
+  #episodes .episode .media-left img {
+    width: 200px; }
+/* line 12, _episodes.scss */
+#episodes .episode .media-body {
+  padding-left: 15px; }
+
+/* line 2, _characters.scss */
+#characters .character {
+  transition: width 0.5s ease-in; }
+  /* line 4, _characters.scss */
+  #characters .character .well {
+    overflow: hidden;
+    text-overflow: ellipsis; }
+    /* line 8, _characters.scss */
+    #characters .character .well h4, #characters .character .well p {
+      white-space: nowrap; }
